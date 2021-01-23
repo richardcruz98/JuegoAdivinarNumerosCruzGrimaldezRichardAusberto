@@ -10,6 +10,6 @@ numrandom::numrandom() {
 
 int numrandom::crearnumrandom() {
 	srand(time(NULL));
-	numeroaleatorio = 1 + rand() % (11-1);
+	numeroaleatorio = 1 + rand() % (101-1);
 	return numeroaleatorio;
 }
